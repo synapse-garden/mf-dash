@@ -1,0 +1,61 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+
+*.sw[nop]
+
+key.key
+cert.pem
+*.db
+pom.xml
+*jar
+lib/
+classes/
+resources/public/out/
+resources/public/test_out/
+resources/public/script/
+target/
+.lein-deps-sum
+.lein-repl-history
+.lein-plugins/
+
+# Swapfiles
+*.sw[op]
+
+# Compiled js
+*.js
+
+# Source maps
+*.map
+
+# NREPL
+.nrepl-port
+
+# logs
+.lein-failures
+*.log
+
+# IDEA files for Cursive
+*.iml
+.idea
